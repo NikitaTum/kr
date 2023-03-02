@@ -9,3 +9,16 @@ if(array1[i].Length <= 3)
 {
 array2[count] = array1[i];
 count++;
+}
+}
+}
+void PrintArray(string[] array)
+{
+for (int i = 0; i < array.Length; i++)
+{
+Console.Write($"{array[i]} ");
+}
+Console.WriteLine();
+}
+ArraySecond(array1, array2);
+PrintArray(array2);
